@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "aadhaar": "1234-5678-9012",
+      "voterId": "VOTER123",
+      "name": "Admin User"
+    },
+    {
+      "id": "2",
+      "username": "john",
+      "password": "john123",
+      "role": "user",
+      "aadhaar": "9876-5432-1098",
+      "voterId": "VOTER456",
+      "name": "John Doe"
+    },
+    {
+      "id": "9946",
+      "username": "chinnu",
+      "password": "chinnu",
+      "role": "user",
+      "name": "chinnu",
+      "aadhaar": "chinnu",
+      "voterId": "chinnu"
+    },
+    {
+      "id": "cadf",
+      "username": "sonu",
+      "password": "sonu",
+      "role": "user",
+      "name": "sonu",
+      "aadhaar": "sonu",
+      "voterId": "sonu"
+    },
+    {
+      "id": "4baf",
+      "username": "venkey",
+      "password": "venkey",
+      "role": "user",
+      "name": "Venkey",
+      "aadhaar": "Venkey",
+      "voterId": "Venkey"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "3352",
+      "name": "",
+      "description": "",
+      "votes": 3,
+      "votedBy": [
+        "9946",
+        "cadf",
+        "4baf"
+      ]
+    },
+    {
+      "id": "a12d",
+      "name": "",
+      "description": "",
+      "votes": 1,
+      "votedBy": [
+        "cadf"
+      ]
+    },
+    {
+      "id": "59a1",
+      "name": "chinnu",
+      "description": "cand",
+      "votes": 0,
+      "votedBy": []
+    }
+  ]
+}
